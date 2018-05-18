@@ -1,0 +1,229 @@
+-- Reboot --
+May 18 07:01:15 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: I0518 07:01:17.135013    1030 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: W0518 07:01:17.292160    1030 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: I0518 07:01:17.292213    1030 server.go:376] Version: v1.10.2
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: I0518 07:01:17.292251    1030 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: I0518 07:01:17.292358    1030 plugins.go:89] No cloud provider specified.
+May 18 07:01:17 kubernetes-node1 kubelet[1030]: I0518 07:01:17.316482    1030 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:01:19 kubernetes-node1 kubelet[1030]: I0518 07:01:19.465736    1030 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:19 kubernetes-node1 kubelet[1030]: F0518 07:01:19.466102    1030 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:01:19 kubernetes-node1 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:19 kubernetes-node1 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:29 kubernetes-node1 systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:01:29 kubernetes-node1 systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 1.
+May 18 07:01:29 kubernetes-node1 systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:29 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: I0518 07:01:29.815541    1646 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: W0518 07:01:29.832156    1646 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: I0518 07:01:29.832199    1646 server.go:376] Version: v1.10.2
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: I0518 07:01:29.832235    1646 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: I0518 07:01:29.832300    1646 plugins.go:89] No cloud provider specified.
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: I0518 07:01:29.849540    1646 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: I0518 07:01:29.875558    1646 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:29 kubernetes-node1 kubelet[1646]: F0518 07:01:29.875803    1646 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:01:29 kubernetes-node1 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:29 kubernetes-node1 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:40 kubernetes-node1 systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:01:40 kubernetes-node1 systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 2.
+May 18 07:01:40 kubernetes-node1 systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:40 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: I0518 07:01:40.100727    1701 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: W0518 07:01:40.113158    1701 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: I0518 07:01:40.113189    1701 server.go:376] Version: v1.10.2
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: I0518 07:01:40.113217    1701 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: I0518 07:01:40.113281    1701 plugins.go:89] No cloud provider specified.
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: I0518 07:01:40.129872    1701 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: I0518 07:01:40.154855    1701 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:40 kubernetes-node1 kubelet[1701]: F0518 07:01:40.155068    1701 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:01:40 kubernetes-node1 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:40 kubernetes-node1 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:51 kubernetes-node1 systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:01:51 kubernetes-node1 systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 3.
+May 18 07:01:51 kubernetes-node1 systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:51 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: I0518 07:01:51.725341    1758 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: W0518 07:01:51.742521    1758 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: I0518 07:01:51.742557    1758 server.go:376] Version: v1.10.2
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: I0518 07:01:51.742596    1758 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: I0518 07:01:51.742668    1758 plugins.go:89] No cloud provider specified.
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: I0518 07:01:51.761250    1758 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: I0518 07:01:51.785363    1758 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:51 kubernetes-node1 kubelet[1758]: F0518 07:01:51.785634    1758 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:01:51 kubernetes-node1 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:51 kubernetes-node1 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:02:01 kubernetes-node1 systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:02:01 kubernetes-node1 systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 4.
+May 18 07:02:01 kubernetes-node1 systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:02:01 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: I0518 07:02:01.973121    1819 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: W0518 07:02:01.988920    1819 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: I0518 07:02:01.989158    1819 server.go:376] Version: v1.10.2
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: I0518 07:02:01.989288    1819 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:02:01 kubernetes-node1 kubelet[1819]: I0518 07:02:01.989445    1819 plugins.go:89] No cloud provider specified.
+May 18 07:02:02 kubernetes-node1 kubelet[1819]: I0518 07:02:02.005376    1819 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:02:02 kubernetes-node1 kubelet[1819]: I0518 07:02:02.035692    1819 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:02:02 kubernetes-node1 kubelet[1819]: F0518 07:02:02.036132    1819 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:02:02 kubernetes-node1 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:02:02 kubernetes-node1 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:02:12 kubernetes-node1 systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:02:12 kubernetes-node1 systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 5.
+May 18 07:02:12 kubernetes-node1 systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:02:12 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: I0518 07:02:12.219300    2028 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: W0518 07:02:12.234115    2028 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: I0518 07:02:12.234152    2028 server.go:376] Version: v1.10.2
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: I0518 07:02:12.234203    2028 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: I0518 07:02:12.234396    2028 plugins.go:89] No cloud provider specified.
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: I0518 07:02:12.251736    2028 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: I0518 07:02:12.282293    2028 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:02:12 kubernetes-node1 kubelet[2028]: F0518 07:02:12.282547    2028 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:02:12 kubernetes-node1 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:02:12 kubernetes-node1 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:02:22 kubernetes-node1 systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:02:22 kubernetes-node1 systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 6.
+May 18 07:02:22 kubernetes-node1 systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:02:22 kubernetes-node1 systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.467716    2103 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: W0518 07:02:22.480297    2103 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.480377    2103 server.go:376] Version: v1.10.2
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.480404    2103 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.480468    2103 plugins.go:89] No cloud provider specified.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.495937    2103 certificate_store.go:130] Loading cert/key pair from ("/var/lib/kubelet/pki/kubelet-client.crt", "/var/lib/kubelet/pki/kubel
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.524439    2103 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.524894    2103 container_manager_linux.go:242] container manager verified user specified cgroup-root exists: /
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.525002    2103 container_manager_linux.go:247] Creating Container Manager object based on Node Config: {RuntimeCgroupsName: SystemCgroupsNa
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.526804    2103 container_manager_linux.go:266] Creating device plugin manager: true
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.527358    2103 state_mem.go:36] [cpumanager] initializing new in-memory state store
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.529952    2103 state_mem.go:84] [cpumanager] updated default cpuset: ""
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.530190    2103 state_mem.go:92] [cpumanager] updated cpuset assignments: "map[]"
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.531296    2103 kubelet.go:272] Adding pod path: /etc/kubernetes/manifests
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.531544    2103 kubelet.go:297] Watching apiserver
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: W0518 07:02:22.546896    2103 kubelet_network.go:139] Hairpin mode set to "promiscuous-bridge" but kubenet is not enabled, falling back to "hairpin-veth"
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.547121    2103 kubelet.go:556] Hairpin mode set to "hairpin-veth"
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.548427    2103 client.go:75] Connecting to docker on unix:///var/run/docker.sock
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.548908    2103 client.go:104] Start docker client with request timeout=2m0s
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: W0518 07:02:22.557168    2103 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.557341    2103 docker_service.go:244] Docker cri networking managed by cni
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.564888    2103 docker_service.go:249] Docker Info: &{ID:GZLH:4UJH:5633:27SW:NQDZ:KSSQ:ZTC3:H2O2:C2MP:QZ45:KXRY:3VNB Containers:7 Containers
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.565015    2103 docker_service.go:262] Setting cgroupDriver to cgroupfs
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.586300    2103 remote_runtime.go:43] Connecting to runtime service unix:///var/run/dockershim.sock
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.593515    2103 kuberuntime_manager.go:186] Container runtime docker initialized, version: 17.12.1-ce, apiVersion: 1.35.0
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.596470    2103 csi_plugin.go:61] kubernetes.io/csi: plugin initializing...
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.609350    2103 fs_resource_analyzer.go:66] Starting FS ResourceAnalyzer
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.609451    2103 status_manager.go:140] Starting to sync pod status with apiserver
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.609489    2103 kubelet.go:1777] Starting kubelet main sync loop.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.609519    2103 kubelet.go:1794] skipping pod synchronization - [container runtime is down PLEG is not healthy: pleg was last seen active 25
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.610233    2103 server.go:129] Starting to listen on 0.0.0.0:10250
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: E0518 07:02:22.610515    2103 kubelet.go:1277] Image garbage collection failed once. Stats initialization may not have completed yet: failed to get imageF
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.610691    2103 volume_manager.go:247] Starting Kubelet Volume Manager
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.611435    2103 server.go:299] Adding debug handlers to kubelet server.
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.617398    2103 server.go:944] Started kubelet
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.617663    2103 desired_state_of_world_populator.go:129] Desired state populator starts to run
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: W0518 07:02:22.674069    2103 docker_sandbox.go:353] failed to read pod IP from plugin/docker: NetworkPlugin cni failed on the status hook for pod "nginx-
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.709953    2103 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.711002    2103 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.713241    2103 kubelet_node_status.go:82] Attempting to register node kubernetes-node1
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.735306    2103 kubelet_node_status.go:127] Node kubernetes-node1 was previously registered
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.735335    2103 kubelet_node_status.go:85] Successfully registered node kubernetes-node1
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.736455    2103 kuberuntime_manager.go:917] updating runtime config through cri with podcidr 10.244.1.0/24
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.736593    2103 docker_service.go:340] docker cri received runtime config &RuntimeConfig{NetworkConfig:&NetworkConfig{PodCidr:10.244.1.0/24,
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.736686    2103 kubelet_network.go:196] Setting Pod CIDR:  -> 10.244.1.0/24
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.739331    2103 kubelet_node_status.go:811] Node became not ready: {Type:Ready Status:False LastHeartbeatTime:2018-05-18 07:02:22.739315092 
+May 18 07:02:22 kubernetes-node1 kubelet[2103]: I0518 07:02:22.910770    2103 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:02:23 kubernetes-node1 kubelet[2103]: I0518 07:02:23.311909    2103 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:02:24 kubernetes-node1 kubelet[2103]: I0518 07:02:24.112252    2103 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:02:24 kubernetes-node1 kubelet[2103]: I0518 07:02:24.718258    2103 cpu_manager.go:155] [cpumanager] starting with none policy
+May 18 07:02:24 kubernetes-node1 kubelet[2103]: I0518 07:02:24.718528    2103 cpu_manager.go:156] [cpumanager] reconciling every 10s
+May 18 07:02:24 kubernetes-node1 kubelet[2103]: I0518 07:02:24.718636    2103 policy_none.go:42] [cpumanager] none policy: Start
+May 18 07:02:24 kubernetes-node1 kubelet[2103]: Starting Device Plugin manager
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.736846    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy" (UniqueName: "kubernetes
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.737413    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "xtables-lock" (UniqueName: "kubernet
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.737660    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "lib-modules" (UniqueName: "kubernete
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.737820    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy-token-bbsmh" (UniqueName:
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.759341    2103 pod_container_deletor.go:77] Container "c1720fbfd50049e2aa0b50e3a8455056ece50cbbd10b023186e31d42efb2395e" not found in pod's
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.759604    2103 pod_container_deletor.go:77] Container "3c8689cf5caf4bc71e3f694b0ab0ea94ce255a237c94dea29d14089d80bd6542" not found in pod's
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.759813    2103 pod_container_deletor.go:77] Container "00a980975b8c60f52b0e3cdf80e4a0af0a4ba1e25da063b08ab72f91f0b34ffc" not found in pod's
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.838778    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "flannel-token-2zmdc" (UniqueName: "k
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.838937    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "run" (UniqueName: "kubernetes.io/hos
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.838977    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "flannel-cfg" (UniqueName: "kubernete
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.839074    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-j9hcf" (UniqueName: "k
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.839153    2103 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "cni" (UniqueName: "kubernetes.io/hos
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: I0518 07:02:25.839169    2103 reconciler.go:154] Reconciler: start to sync state
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.857557    2103 container.go:393] Failed to create summary reader for "/system.slice/run-ra6353015fbb64d79908f3bd9fc796112.scope": none of t
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.969715    2103 raw.go:87] Error while processing event ("/sys/fs/cgroup/cpu,cpuacct/system.slice/run-r796ce0b62a994c1384bef3b34187270d.scop
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.969758    2103 raw.go:87] Error while processing event ("/sys/fs/cgroup/blkio/system.slice/run-r796ce0b62a994c1384bef3b34187270d.scope": 0x
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.969808    2103 raw.go:87] Error while processing event ("/sys/fs/cgroup/memory/system.slice/run-r796ce0b62a994c1384bef3b34187270d.scope": 0
+May 18 07:02:25 kubernetes-node1 kubelet[2103]: W0518 07:02:25.969825    2103 raw.go:87] Error while processing event ("/sys/fs/cgroup/devices/system.slice/run-r796ce0b62a994c1384bef3b34187270d.scope": 
+May 18 07:02:26 kubernetes-node1 kubelet[2103]: W0518 07:02:26.068942    2103 cni.go:242] CNI failed to retrieve network namespace path: cannot find network namespace for the terminated container "3c868
+May 18 07:02:26 kubernetes-node1 kubelet[2103]: W0518 07:02:26.152404    2103 kuberuntime_container.go:675] No ref for container {"docker" "183681a2f750935c55c261828f66fa61cb455f92142704b75bd14dadd10bde
+May 18 07:02:26 kubernetes-node1 kubelet[2103]: I0518 07:02:26.545146    2103 kuberuntime_manager.go:757] checking backoff for container "kube-proxy" in pod "kube-proxy-xdtmm_kube-system(60979c44-5a1e-1
+May 18 07:02:26 kubernetes-node1 kubelet[2103]: I0518 07:02:26.645757    2103 kuberuntime_manager.go:757] checking backoff for container "install-cni" in pod "kube-flannel-ds-59vk2_kube-system(609a4493-
+May 18 07:02:26 kubernetes-node1 kubelet[2103]: E0518 07:02:26.689378    2103 cni.go:259] Error adding network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:26 kubernetes-node1 kubelet[2103]: E0518 07:02:26.689648    2103 cni.go:227] Error while adding to cni network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:27 kubernetes-node1 kubelet[2103]: E0518 07:02:27.186842    2103 remote_runtime.go:92] RunPodSandbox from runtime service failed: rpc error: code = Unknown desc = NetworkPlugin cni failed t
+May 18 07:02:27 kubernetes-node1 kubelet[2103]: E0518 07:02:27.186882    2103 kuberuntime_sandbox.go:54] CreatePodSandbox for pod "nginx-deployment-64ff85b579-srf96_default(eda81073-5a23-11e8-81cc-08002
+May 18 07:02:27 kubernetes-node1 kubelet[2103]: E0518 07:02:27.186894    2103 kuberuntime_manager.go:646] createPodSandbox for pod "nginx-deployment-64ff85b579-srf96_default(eda81073-5a23-11e8-81cc-0800
+May 18 07:02:27 kubernetes-node1 kubelet[2103]: E0518 07:02:27.186946    2103 pod_workers.go:186] Error syncing pod eda81073-5a23-11e8-81cc-0800272d298f ("nginx-deployment-64ff85b579-srf96_default(eda81
+May 18 07:02:27 kubernetes-node1 kubelet[2103]: W0518 07:02:27.269222    2103 container.go:393] Failed to create summary reader for "/kubepods/pod609a4493-5a1e-11e8-81cc-0800272d298f/b9b5f46c4120bd8ef13
+May 18 07:02:28 kubernetes-node1 kubelet[2103]: W0518 07:02:28.263617    2103 pod_container_deletor.go:77] Container "e2aa4f2fccdd94834f4279b165091cb97d523e07d15de23e6ed88e95f4d6deeb" not found in pod's
+May 18 07:02:28 kubernetes-node1 kubelet[2103]: I0518 07:02:28.542271    2103 kuberuntime_manager.go:513] Container {Name:kube-flannel Image:quay.io/coreos/flannel:v0.10.0-amd64 Command:[/opt/bin/flanne
+May 18 07:02:28 kubernetes-node1 kubelet[2103]: I0518 07:02:28.543188    2103 kuberuntime_manager.go:757] checking backoff for container "kube-flannel" in pod "kube-flannel-ds-59vk2_kube-system(609a4493
+May 18 07:02:29 kubernetes-node1 kubelet[2103]: E0518 07:02:29.137487    2103 cni.go:259] Error adding network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:29 kubernetes-node1 kubelet[2103]: E0518 07:02:29.137747    2103 cni.go:227] Error while adding to cni network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:29 kubernetes-node1 kubelet[2103]: E0518 07:02:29.321665    2103 remote_runtime.go:92] RunPodSandbox from runtime service failed: rpc error: code = Unknown desc = NetworkPlugin cni failed t
+May 18 07:02:29 kubernetes-node1 kubelet[2103]: E0518 07:02:29.321706    2103 kuberuntime_sandbox.go:54] CreatePodSandbox for pod "nginx-deployment-64ff85b579-srf96_default(eda81073-5a23-11e8-81cc-08002
+May 18 07:02:29 kubernetes-node1 kubelet[2103]: E0518 07:02:29.321716    2103 kuberuntime_manager.go:646] createPodSandbox for pod "nginx-deployment-64ff85b579-srf96_default(eda81073-5a23-11e8-81cc-0800
+May 18 07:02:29 kubernetes-node1 kubelet[2103]: E0518 07:02:29.321802    2103 pod_workers.go:186] Error syncing pod eda81073-5a23-11e8-81cc-0800272d298f ("nginx-deployment-64ff85b579-srf96_default(eda81
+May 18 07:02:30 kubernetes-node1 kubelet[2103]: W0518 07:02:30.352425    2103 pod_container_deletor.go:77] Container "efe660b0dc96570fc1bd52d0bbe638eaf27254ec01a6ecad1ed9a6a16d25780d" not found in pod's
+May 18 07:02:31 kubernetes-node1 kubelet[2103]: I0518 07:02:31.193037    2103 kuberuntime_manager.go:757] checking backoff for container "nginx" in pod "nginx-deployment-64ff85b579-srf96_default(eda8107
+
