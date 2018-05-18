@@ -1,0 +1,340 @@
+-- Reboot --
+May 18 07:01:13 kubernetes-master systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuber
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernete
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:15 kubernetes-master kubelet[779]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:15 kubernetes-master kubelet[779]: I0518 07:01:15.599577     779 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:15 kubernetes-master kubelet[779]: W0518 07:01:15.826545     779 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:15 kubernetes-master kubelet[779]: I0518 07:01:15.826667     779 server.go:376] Version: v1.10.2
+May 18 07:01:15 kubernetes-master kubelet[779]: I0518 07:01:15.826717     779 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:15 kubernetes-master kubelet[779]: I0518 07:01:15.826797     779 plugins.go:89] No cloud provider specified.
+May 18 07:01:15 kubernetes-master kubelet[779]: I0518 07:01:15.832757     779 certificate_store.go:117] Loading cert/key pair from "/var/lib/kubelet/pki/kubelet-client-current.pem".
+May 18 07:01:18 kubernetes-master kubelet[779]: I0518 07:01:18.903617     779 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:18 kubernetes-master kubelet[779]: F0518 07:01:18.904436     779 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on flag
+May 18 07:01:18 kubernetes-master systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:18 kubernetes-master systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:29 kubernetes-master systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:01:29 kubernetes-master systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 1.
+May 18 07:01:29 kubernetes-master systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:29 kubernetes-master systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kub
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:29 kubernetes-master kubelet[1458]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:29 kubernetes-master kubelet[1458]: I0518 07:01:29.239758    1458 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:29 kubernetes-master kubelet[1458]: W0518 07:01:29.254020    1458 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:29 kubernetes-master kubelet[1458]: I0518 07:01:29.254170    1458 server.go:376] Version: v1.10.2
+May 18 07:01:29 kubernetes-master kubelet[1458]: I0518 07:01:29.254279    1458 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:29 kubernetes-master kubelet[1458]: I0518 07:01:29.254406    1458 plugins.go:89] No cloud provider specified.
+May 18 07:01:29 kubernetes-master kubelet[1458]: I0518 07:01:29.256897    1458 certificate_store.go:117] Loading cert/key pair from "/var/lib/kubelet/pki/kubelet-client-current.pem".
+May 18 07:01:29 kubernetes-master kubelet[1458]: I0518 07:01:29.300756    1458 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:29 kubernetes-master kubelet[1458]: F0518 07:01:29.301014    1458 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on fla
+May 18 07:01:29 kubernetes-master systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:29 kubernetes-master systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:39 kubernetes-master systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:01:39 kubernetes-master systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 2.
+May 18 07:01:39 kubernetes-master systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:39 kubernetes-master systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kub
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:39 kubernetes-master kubelet[1528]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:39 kubernetes-master kubelet[1528]: I0518 07:01:39.637476    1528 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:39 kubernetes-master kubelet[1528]: W0518 07:01:39.650388    1528 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:39 kubernetes-master kubelet[1528]: I0518 07:01:39.650414    1528 server.go:376] Version: v1.10.2
+May 18 07:01:39 kubernetes-master kubelet[1528]: I0518 07:01:39.650443    1528 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:39 kubernetes-master kubelet[1528]: I0518 07:01:39.650508    1528 plugins.go:89] No cloud provider specified.
+May 18 07:01:39 kubernetes-master kubelet[1528]: I0518 07:01:39.653136    1528 certificate_store.go:117] Loading cert/key pair from "/var/lib/kubelet/pki/kubelet-client-current.pem".
+May 18 07:01:39 kubernetes-master kubelet[1528]: I0518 07:01:39.697145    1528 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:39 kubernetes-master kubelet[1528]: F0518 07:01:39.697420    1528 server.go:233] failed to run Kubelet: Running with swap on is not supported, please disable swap! or set --fail-swap-on fla
+May 18 07:01:39 kubernetes-master systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+May 18 07:01:39 kubernetes-master systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:51 kubernetes-master systemd[1]: kubelet.service: Service hold-off time over, scheduling restart.
+May 18 07:01:51 kubernetes-master systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 3.
+May 18 07:01:51 kubernetes-master systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:51 kubernetes-master systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kub
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:51 kubernetes-master kubelet[1747]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.729740    1747 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:51 kubernetes-master kubelet[1747]: W0518 07:01:51.746939    1747 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.746975    1747 server.go:376] Version: v1.10.2
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.747033    1747 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.747169    1747 plugins.go:89] No cloud provider specified.
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.751591    1747 certificate_store.go:117] Loading cert/key pair from "/var/lib/kubelet/pki/kubelet-client-current.pem".
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.794010    1747 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.794268    1747 container_manager_linux.go:242] container manager verified user specified cgroup-root exists: /
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.794278    1747 container_manager_linux.go:247] Creating Container Manager object based on Node Config: {RuntimeCgroupsName: SystemCgroupsN
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.794940    1747 container_manager_linux.go:266] Creating device plugin manager: true
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.795103    1747 state_mem.go:36] [cpumanager] initializing new in-memory state store
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.796238    1747 state_mem.go:84] [cpumanager] updated default cpuset: ""
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.796269    1747 state_mem.go:92] [cpumanager] updated cpuset assignments: "map[]"
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.797290    1747 kubelet.go:272] Adding pod path: /etc/kubernetes/manifests
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.797509    1747 kubelet.go:297] Watching apiserver
+May 18 07:01:51 kubernetes-master kubelet[1747]: E0518 07:01:51.800153    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:51 kubernetes-master kubelet[1747]: E0518 07:01:51.800219    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:51 kubernetes-master kubelet[1747]: E0518 07:01:51.800256    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:51 kubernetes-master kubelet[1747]: W0518 07:01:51.802691    1747 kubelet_network.go:139] Hairpin mode set to "promiscuous-bridge" but kubenet is not enabled, falling back to "hairpin-veth"
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.802722    1747 kubelet.go:556] Hairpin mode set to "hairpin-veth"
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.802880    1747 client.go:75] Connecting to docker on unix:///var/run/docker.sock
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.802900    1747 client.go:104] Start docker client with request timeout=2m0s
+May 18 07:01:51 kubernetes-master kubelet[1747]: W0518 07:01:51.827923    1747 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.828071    1747 docker_service.go:244] Docker cri networking managed by cni
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.840656    1747 docker_service.go:249] Docker Info: &{ID:YZVD:4YRD:Y77I:AX5X:EVEM:G45R:NPXZ:ZG4A:BGJD:HZZP:IVFY:BWHL Containers:17 Containe
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.842362    1747 docker_service.go:262] Setting cgroupDriver to cgroupfs
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.859260    1747 remote_runtime.go:43] Connecting to runtime service unix:///var/run/dockershim.sock
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.886431    1747 kuberuntime_manager.go:186] Container runtime docker initialized, version: 17.12.1-ce, apiVersion: 1.35.0
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.890575    1747 csi_plugin.go:61] kubernetes.io/csi: plugin initializing...
+May 18 07:01:51 kubernetes-master kubelet[1747]: E0518 07:01:51.921342    1747 kubelet.go:1277] Image garbage collection failed once. Stats initialization may not have completed yet: failed to get image
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.921918    1747 fs_resource_analyzer.go:66] Starting FS ResourceAnalyzer
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.922023    1747 status_manager.go:140] Starting to sync pod status with apiserver
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.922138    1747 kubelet.go:1777] Starting kubelet main sync loop.
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.922255    1747 kubelet.go:1794] skipping pod synchronization - [container runtime is down PLEG is not healthy: pleg was last seen active 2
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.922545    1747 server.go:129] Starting to listen on 0.0.0.0:10250
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.923096    1747 server.go:299] Adding debug handlers to kubelet server.
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.925217    1747 volume_manager.go:247] Starting Kubelet Volume Manager
+May 18 07:01:51 kubernetes-master kubelet[1747]: E0518 07:01:51.936848    1747 event.go:209] Unable to write event: 'Post https://192.168.56.3:6443/api/v1/namespaces/default/events: dial tcp 192.168.56.
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.946701    1747 server.go:944] Started kubelet
+May 18 07:01:51 kubernetes-master kubelet[1747]: I0518 07:01:51.946940    1747 desired_state_of_world_populator.go:129] Desired state populator starts to run
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.022563    1747 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.025602    1747 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.028069    1747 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:52 kubernetes-master kubelet[1747]: E0518 07:01:52.028698    1747 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:52 kubernetes-master kubelet[1747]: W0518 07:01:52.032762    1747 docker_sandbox.go:353] failed to read pod IP from plugin/docker: NetworkPlugin cni failed on the status hook for pod "kube-
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.223225    1747 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.230872    1747 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.233758    1747 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:52 kubernetes-master kubelet[1747]: E0518 07:01:52.234536    1747 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.623601    1747 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.634818    1747 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:52 kubernetes-master kubelet[1747]: I0518 07:01:52.637367    1747 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:52 kubernetes-master kubelet[1747]: E0518 07:01:52.637729    1747 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:52 kubernetes-master kubelet[1747]: E0518 07:01:52.801397    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:52 kubernetes-master kubelet[1747]: E0518 07:01:52.802402    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:52 kubernetes-master kubelet[1747]: E0518 07:01:52.803072    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:53 kubernetes-master kubelet[1747]: E0518 07:01:53.079062    1747 event.go:209] Unable to write event: 'Post https://192.168.56.3:6443/api/v1/namespaces/default/events: dial tcp 192.168.56.
+May 18 07:01:53 kubernetes-master kubelet[1747]: I0518 07:01:53.435889    1747 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:53 kubernetes-master kubelet[1747]: I0518 07:01:53.438448    1747 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:53 kubernetes-master kubelet[1747]: I0518 07:01:53.441627    1747 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:53 kubernetes-master kubelet[1747]: E0518 07:01:53.441974    1747 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:53 kubernetes-master kubelet[1747]: E0518 07:01:53.802668    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:53 kubernetes-master kubelet[1747]: E0518 07:01:53.802889    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:53 kubernetes-master kubelet[1747]: E0518 07:01:53.803989    1747 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:54 kubernetes-master kubelet[1747]: I0518 07:01:54.056951    1747 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:54 kubernetes-master kubelet[1747]: I0518 07:01:54.059100    1747 cpu_manager.go:155] [cpumanager] starting with none policy
+May 18 07:01:54 kubernetes-master kubelet[1747]: I0518 07:01:54.059301    1747 cpu_manager.go:156] [cpumanager] reconciling every 10s
+May 18 07:01:54 kubernetes-master kubelet[1747]: I0518 07:01:54.059373    1747 policy_none.go:42] [cpumanager] none policy: Start
+May 18 07:01:54 kubernetes-master kubelet[1747]: Starting Device Plugin manager
+May 18 07:01:54 kubernetes-master kubelet[1747]: E0518 07:01:54.074713    1747 eviction_manager.go:246] eviction manager: failed to get get summary stats: failed to get node info: node "kubernetes-maste
+May 18 07:01:54 kubernetes-master systemd[1]: Stopping kubelet: The Kubernetes Node Agent...
+May 18 07:01:54 kubernetes-master systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+May 18 07:01:54 kubernetes-master systemd[1]: kubelet.service: Failed with result 'exit-code'.
+May 18 07:01:54 kubernetes-master systemd[1]: Stopped kubelet: The Kubernetes Node Agent.
+May 18 07:01:54 kubernetes-master systemd[1]: Started kubelet: The Kubernetes Node Agent.
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --pod-manifest-path has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kube
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --allow-privileged has been deprecated, will be removed in a future version
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --cgroup-driver has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernet
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --cluster-dns has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --cluster-domain has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --authorization-mode has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kub
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --client-ca-file has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kuberne
+May 18 07:01:54 kubernetes-master kubelet[1882]: Flag --cadvisor-port has been deprecated, The default will change to 0 (disabled) in 1.12, and the cadvisor port will be removed entirely in 1.13
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.866575    1882 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:54 kubernetes-master kubelet[1882]: W0518 07:01:54.878752    1882 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.878784    1882 server.go:376] Version: v1.10.2
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.878810    1882 feature_gate.go:226] feature gates: &{{} map[]}
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.879157    1882 plugins.go:89] No cloud provider specified.
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.881173    1882 certificate_store.go:117] Loading cert/key pair from "/var/lib/kubelet/pki/kubelet-client-current.pem".
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.920807    1882 server.go:613] --cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.921283    1882 container_manager_linux.go:242] container manager verified user specified cgroup-root exists: /
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.921401    1882 container_manager_linux.go:247] Creating Container Manager object based on Node Config: {RuntimeCgroupsName: SystemCgroupsN
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.921738    1882 container_manager_linux.go:266] Creating device plugin manager: true
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.921767    1882 state_mem.go:36] [cpumanager] initializing new in-memory state store
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.921821    1882 state_mem.go:84] [cpumanager] updated default cpuset: ""
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.921834    1882 state_mem.go:92] [cpumanager] updated cpuset assignments: "map[]"
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.922107    1882 kubelet.go:272] Adding pod path: /etc/kubernetes/manifests
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.922214    1882 kubelet.go:297] Watching apiserver
+May 18 07:01:54 kubernetes-master kubelet[1882]: E0518 07:01:54.930409    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:54 kubernetes-master kubelet[1882]: E0518 07:01:54.930963    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:54 kubernetes-master kubelet[1882]: E0518 07:01:54.931570    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:54 kubernetes-master kubelet[1882]: W0518 07:01:54.944621    1882 kubelet_network.go:139] Hairpin mode set to "promiscuous-bridge" but kubenet is not enabled, falling back to "hairpin-veth"
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.944794    1882 kubelet.go:556] Hairpin mode set to "hairpin-veth"
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.945222    1882 client.go:75] Connecting to docker on unix:///var/run/docker.sock
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.945332    1882 client.go:104] Start docker client with request timeout=2m0s
+May 18 07:01:54 kubernetes-master kubelet[1882]: W0518 07:01:54.953066    1882 hostport_manager.go:68] The binary conntrack is not installed, this can cause failures in network connection cleanup.
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.953472    1882 docker_service.go:244] Docker cri networking managed by cni
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.973879    1882 docker_service.go:249] Docker Info: &{ID:YZVD:4YRD:Y77I:AX5X:EVEM:G45R:NPXZ:ZG4A:BGJD:HZZP:IVFY:BWHL Containers:17 Containe
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.974137    1882 docker_service.go:262] Setting cgroupDriver to cgroupfs
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.993759    1882 remote_runtime.go:43] Connecting to runtime service unix:///var/run/dockershim.sock
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.994946    1882 kuberuntime_manager.go:186] Container runtime docker initialized, version: 17.12.1-ce, apiVersion: 1.35.0
+May 18 07:01:54 kubernetes-master kubelet[1882]: I0518 07:01:54.995438    1882 csi_plugin.go:61] kubernetes.io/csi: plugin initializing...
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.000665    1882 kubelet.go:1277] Image garbage collection failed once. Stats initialization may not have completed yet: failed to get image
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.001345    1882 fs_resource_analyzer.go:66] Starting FS ResourceAnalyzer
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.001509    1882 status_manager.go:140] Starting to sync pod status with apiserver
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.001608    1882 kubelet.go:1777] Starting kubelet main sync loop.
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.001719    1882 kubelet.go:1794] skipping pod synchronization - [container runtime is down PLEG is not healthy: pleg was last seen active 2
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.002088    1882 server.go:129] Starting to listen on 0.0.0.0:10250
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.002644    1882 server.go:299] Adding debug handlers to kubelet server.
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.004134    1882 volume_manager.go:247] Starting Kubelet Volume Manager
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.013084    1882 server.go:944] Started kubelet
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.013239    1882 desired_state_of_world_populator.go:129] Desired state populator starts to run
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.016027    1882 event.go:209] Unable to write event: 'Post https://192.168.56.3:6443/api/v1/namespaces/default/events: dial tcp 192.168.56.
+May 18 07:01:55 kubernetes-master kubelet[1882]: W0518 07:01:55.054527    1882 docker_sandbox.go:353] failed to read pod IP from plugin/docker: NetworkPlugin cni failed on the status hook for pod "kube-
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.102748    1882 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.104648    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.107726    1882 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.108205    1882 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.307182    1882 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.310978    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.314372    1882 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.315007    1882 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.709100    1882 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.715167    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:55 kubernetes-master kubelet[1882]: I0518 07:01:55.718112    1882 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.718712    1882 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.931462    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.936439    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:55 kubernetes-master kubelet[1882]: E0518 07:01:55.937403    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:56 kubernetes-master kubelet[1882]: I0518 07:01:56.509998    1882 kubelet.go:1794] skipping pod synchronization - [container runtime is down]
+May 18 07:01:56 kubernetes-master kubelet[1882]: I0518 07:01:56.519046    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:56 kubernetes-master kubelet[1882]: I0518 07:01:56.523962    1882 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:56 kubernetes-master kubelet[1882]: E0518 07:01:56.524580    1882 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:56 kubernetes-master kubelet[1882]: E0518 07:01:56.938945    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:56 kubernetes-master kubelet[1882]: E0518 07:01:56.939005    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:56 kubernetes-master kubelet[1882]: E0518 07:01:56.939058    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:57 kubernetes-master kubelet[1882]: I0518 07:01:57.108911    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:57 kubernetes-master kubelet[1882]: I0518 07:01:57.111127    1882 cpu_manager.go:155] [cpumanager] starting with none policy
+May 18 07:01:57 kubernetes-master kubelet[1882]: I0518 07:01:57.111142    1882 cpu_manager.go:156] [cpumanager] reconciling every 10s
+May 18 07:01:57 kubernetes-master kubelet[1882]: I0518 07:01:57.111148    1882 policy_none.go:42] [cpumanager] none policy: Start
+May 18 07:01:57 kubernetes-master kubelet[1882]: Starting Device Plugin manager
+May 18 07:01:57 kubernetes-master kubelet[1882]: E0518 07:01:57.112896    1882 eviction_manager.go:246] eviction manager: failed to get get summary stats: failed to get node info: node "kubernetes-maste
+May 18 07:01:57 kubernetes-master kubelet[1882]: E0518 07:01:57.940282    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:57 kubernetes-master kubelet[1882]: E0518 07:01:57.942265    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:57 kubernetes-master kubelet[1882]: E0518 07:01:57.943106    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.111464    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.122616    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.122790    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.125080    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.127951    1882 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:01:58 kubernetes-master kubelet[1882]: E0518 07:01:58.128482    1882 kubelet_node_status.go:106] Unable to register node "kubernetes-master" with API server: Post https://192.168.56.3:6443/api
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.128721    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.129218    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.135417    1882 status_manager.go:461] Failed to get status for pod "etcd-kubernetes-master_kube-system(b6e95cf519f7ad68a9304638c96808c4)":
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.141851    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.142219    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.142491    1882 status_manager.go:461] Failed to get status for pod "kube-apiserver-kubernetes-master_kube-system(352d216bacbf6525bf73038dd
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.146338    1882 status_manager.go:461] Failed to get status for pod "kube-controller-manager-kubernetes-master_kube-system(380f1b16f61e7a4a
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.148431    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.148763    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.154735    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "etcd-data" (UniqueName: "kubernetes
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.154987    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "etcd-certs" (UniqueName: "kubernete
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.157104    1882 status_manager.go:461] Failed to get status for pod "kube-scheduler-kubernetes-master_kube-system(aa8d5cab3ea096315de0c2003
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.157482    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.159786    1882 pod_container_deletor.go:77] Container "7d9a94f96183ee1f990183052ef4bba02c21811b84d4d9b18ebad188c4ffac13" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.159871    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.161973    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.164406    1882 pod_container_deletor.go:77] Container "951229d7f7dbdaf06808f0434c4e5d1f63aa093eda5ac8b4e533361691cd6ce3" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.164458    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.166974    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.169217    1882 pod_container_deletor.go:77] Container "5e4a5e73d11a1e4c26616318717147266961395a34c3557823a87bceacd4c824" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.169448    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.171426    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.172997    1882 pod_container_deletor.go:77] Container "92d7b22cef1f2ea34b8276a73ad2dad5bf31f3875066b1547a39fcf9ca0ed109" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.173153    1882 pod_container_deletor.go:77] Container "2dde4140dcee8a8abe5411af27dcd363722f17c68a2f68864c496e9393e613bf" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.173257    1882 pod_container_deletor.go:77] Container "fe9dfa6915ec2e9c2513feb29eb4d2cb9bf72fea7f5a7c4efc0e0664b524b943" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: W0518 07:01:58.173350    1882 pod_container_deletor.go:77] Container "6c986a3b9d4bd30ee6d5eb9bc65a8e3e358d18da850e1791222dc219ad2daecf" not found in pod'
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.267763    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "flexvolume-dir" (UniqueName: "kuber
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.268161    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "ca-certs" (UniqueName: "kubernetes.
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.268382    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "k8s-certs" (UniqueName: "kubernetes
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.268534    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "k8s-certs" (UniqueName: "kubernetes
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.268721    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "ca-certs" (UniqueName: "kubernetes.
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.268841    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kubeconfig" (UniqueName: "kubernete
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.268967    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kubeconfig" (UniqueName: "kubernete
+May 18 07:01:58 kubernetes-master kubelet[1882]: E0518 07:01:58.941857    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:58 kubernetes-master kubelet[1882]: E0518 07:01:58.943474    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:58 kubernetes-master kubelet[1882]: E0518 07:01:58.943696    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.968652    1882 kuberuntime_manager.go:757] checking backoff for container "etcd" in pod "etcd-kubernetes-master_kube-system(b6e95cf519f7ad
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.969496    1882 kuberuntime_manager.go:757] checking backoff for container "kube-apiserver" in pod "kube-apiserver-kubernetes-master_kube-s
+May 18 07:01:58 kubernetes-master kubelet[1882]: I0518 07:01:58.989117    1882 kuberuntime_manager.go:757] checking backoff for container "kube-controller-manager" in pod "kube-controller-manager-kubern
+May 18 07:01:59 kubernetes-master kubelet[1882]: I0518 07:01:59.023887    1882 kuberuntime_manager.go:757] checking backoff for container "kube-scheduler" in pod "kube-scheduler-kubernetes-master_kube-s
+May 18 07:01:59 kubernetes-master kubelet[1882]: E0518 07:01:59.942507    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:460: Failed to list *v1.Node: Get https://192.168.56.3:6443/api/
+May 18 07:01:59 kubernetes-master kubelet[1882]: E0518 07:01:59.944031    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/config/apiserver.go:47: Failed to list *v1.Pod: Get https://192.168.56.3:64
+May 18 07:01:59 kubernetes-master kubelet[1882]: E0518 07:01:59.946296    1882 reflector.go:205] k8s.io/kubernetes/pkg/kubelet/kubelet.go:451: Failed to list *v1.Service: Get https://192.168.56.3:6443/a
+May 18 07:02:00 kubernetes-master kubelet[1882]: W0518 07:02:00.109720    1882 docker_container.go:199] Deleted previously existing symlink file: "/var/log/pods/aa8d5cab3ea096315de0c2003230d4f9/kube-sch
+May 18 07:02:00 kubernetes-master kubelet[1882]: I0518 07:02:00.121920    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:00 kubernetes-master kubelet[1882]: W0518 07:02:00.125914    1882 status_manager.go:461] Failed to get status for pod "kube-controller-manager-kubernetes-master_kube-system(380f1b16f61e7a4a
+May 18 07:02:00 kubernetes-master kubelet[1882]: I0518 07:02:00.138797    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:00 kubernetes-master kubelet[1882]: W0518 07:02:00.146264    1882 status_manager.go:461] Failed to get status for pod "kube-apiserver-kubernetes-master_kube-system(352d216bacbf6525bf73038dd
+May 18 07:02:01 kubernetes-master kubelet[1882]: I0518 07:02:01.150384    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:01 kubernetes-master kubelet[1882]: I0518 07:02:01.158281    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:01 kubernetes-master kubelet[1882]: I0518 07:02:01.180817    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:01 kubernetes-master kubelet[1882]: I0518 07:02:01.188333    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:01 kubernetes-master kubelet[1882]: I0518 07:02:01.328753    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:01 kubernetes-master kubelet[1882]: I0518 07:02:01.330396    1882 kubelet_node_status.go:82] Attempting to register node kubernetes-master
+May 18 07:02:02 kubernetes-master kubelet[1882]: I0518 07:02:02.193616    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:02 kubernetes-master kubelet[1882]: I0518 07:02:02.193945    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:02 kubernetes-master kubelet[1882]: I0518 07:02:02.193971    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:02 kubernetes-master kubelet[1882]: I0518 07:02:02.193988    1882 kubelet_node_status.go:271] Setting node annotation to enable volume controller attach/detach
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.250075    1882 kubelet_node_status.go:127] Node kubernetes-master was previously registered
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.250507    1882 kubelet_node_status.go:85] Successfully registered node kubernetes-master
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.251677    1882 kuberuntime_manager.go:917] updating runtime config through cri with podcidr 10.244.0.0/24
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.251971    1882 docker_service.go:340] docker cri received runtime config &RuntimeConfig{NetworkConfig:&NetworkConfig{PodCidr:10.244.0.0/24
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.252867    1882 kubelet_network.go:196] Setting Pod CIDR:  -> 10.244.0.0/24
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.285340    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy" (UniqueName: "kubernete
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.285651    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "xtables-lock" (UniqueName: "kuberne
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.285778    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-dns-config" (UniqueName: "kube
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.285885    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy-token-bbsmh" (UniqueName
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.286134    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "run" (UniqueName: "kubernetes.io/ho
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.286270    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "cni" (UniqueName: "kubernetes.io/ho
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.286382    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-dns-token-48df4" (UniqueName: 
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.286493    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "lib-modules" (UniqueName: "kubernet
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.286758    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "flannel-cfg" (UniqueName: "kubernet
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.286976    1882 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "flannel-token-2zmdc" (UniqueName: "
+May 18 07:02:06 kubernetes-master kubelet[1882]: I0518 07:02:06.287143    1882 reconciler.go:154] Reconciler: start to sync state
+May 18 07:02:06 kubernetes-master kubelet[1882]: W0518 07:02:06.418494    1882 container.go:393] Failed to create summary reader for "/system.slice/run-rcf9f774be1e142ad9dc1a80d77ea59e3.scope": none of 
+May 18 07:02:06 kubernetes-master kubelet[1882]: W0518 07:02:06.426139    1882 raw.go:87] Error while processing event ("/sys/fs/cgroup/devices/system.slice/run-r5de54ef1ec344667a8fe82660933929c.scope":
+May 18 07:02:06 kubernetes-master kubelet[1882]: W0518 07:02:06.436751    1882 container.go:406] Failed to get RecentStats("/system.slice/run-r0372b0543457448c9be9b590c5d5c16f.scope") while determining 
+May 18 07:02:06 kubernetes-master kubelet[1882]: W0518 07:02:06.436837    1882 raw.go:87] Error while processing event ("/sys/fs/cgroup/devices/system.slice/run-r0372b0543457448c9be9b590c5d5c16f.scope":
+May 18 07:02:07 kubernetes-master kubelet[1882]: I0518 07:02:07.610138    1882 kuberuntime_manager.go:757] checking backoff for container "kube-proxy" in pod "kube-proxy-5x9vv_kube-system(80ccec80-5a1d-
+May 18 07:02:07 kubernetes-master kubelet[1882]: W0518 07:02:07.687393    1882 cni.go:242] CNI failed to retrieve network namespace path: cannot find network namespace for the terminated container "2dde
+May 18 07:02:08 kubernetes-master kubelet[1882]: W0518 07:02:08.024717    1882 kuberuntime_container.go:675] No ref for container {"docker" "8cfc13c4f734b833175ee2090235edd91f92410178e71a783052dc1723e12
+May 18 07:02:08 kubernetes-master kubelet[1882]: I0518 07:02:08.627487    1882 kuberuntime_manager.go:757] checking backoff for container "install-cni" in pod "kube-flannel-ds-9jtgp_kube-system(dc26bd89
+May 18 07:02:08 kubernetes-master kubelet[1882]: W0518 07:02:08.731553    1882 pod_container_deletor.go:77] Container "17368d6a3d46ae675e9bdac908b5ec9f861d674ae7fa63d2ad37b9769d76602c" not found in pod'
+May 18 07:02:08 kubernetes-master kubelet[1882]: E0518 07:02:08.744471    1882 cni.go:259] Error adding network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:08 kubernetes-master kubelet[1882]: E0518 07:02:08.744498    1882 cni.go:227] Error while adding to cni network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:08 kubernetes-master kubelet[1882]: W0518 07:02:08.747495    1882 pod_container_deletor.go:77] Container "9fe718a70e0a1d467f096a4e06c3d9acfe12ad430acc8119bdcfc2a4abf72ef9" not found in pod'
+May 18 07:02:08 kubernetes-master kubelet[1882]: E0518 07:02:08.980923    1882 remote_runtime.go:92] RunPodSandbox from runtime service failed: rpc error: code = Unknown desc = NetworkPlugin cni failed 
+May 18 07:02:08 kubernetes-master kubelet[1882]: E0518 07:02:08.981249    1882 kuberuntime_sandbox.go:54] CreatePodSandbox for pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614-5a1d-11e8-81cc-0800272d
+May 18 07:02:08 kubernetes-master kubelet[1882]: E0518 07:02:08.981332    1882 kuberuntime_manager.go:646] createPodSandbox for pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614-5a1d-11e8-81cc-0800272
+May 18 07:02:08 kubernetes-master kubelet[1882]: E0518 07:02:08.981453    1882 pod_workers.go:186] Error syncing pod 80d24614-5a1d-11e8-81cc-0800272d298f ("kube-dns-86f4d74b45-rcgm6_kube-system(80d24614
+May 18 07:02:10 kubernetes-master kubelet[1882]: I0518 07:02:10.092786    1882 kuberuntime_manager.go:513] Container {Name:kube-flannel Image:quay.io/coreos/flannel:v0.10.0-amd64 Command:[/opt/bin/flann
+May 18 07:02:10 kubernetes-master kubelet[1882]: I0518 07:02:10.092894    1882 kuberuntime_manager.go:757] checking backoff for container "kube-flannel" in pod "kube-flannel-ds-9jtgp_kube-system(dc26bd8
+May 18 07:02:10 kubernetes-master kubelet[1882]: E0518 07:02:10.670486    1882 cni.go:259] Error adding network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:10 kubernetes-master kubelet[1882]: E0518 07:02:10.670730    1882 cni.go:227] Error while adding to cni network: open /run/flannel/subnet.env: no such file or directory
+May 18 07:02:10 kubernetes-master kubelet[1882]: E0518 07:02:10.840647    1882 remote_runtime.go:92] RunPodSandbox from runtime service failed: rpc error: code = Unknown desc = NetworkPlugin cni failed 
+May 18 07:02:10 kubernetes-master kubelet[1882]: E0518 07:02:10.840721    1882 kuberuntime_sandbox.go:54] CreatePodSandbox for pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614-5a1d-11e8-81cc-0800272d
+May 18 07:02:10 kubernetes-master kubelet[1882]: E0518 07:02:10.840733    1882 kuberuntime_manager.go:646] createPodSandbox for pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614-5a1d-11e8-81cc-0800272
+May 18 07:02:10 kubernetes-master kubelet[1882]: E0518 07:02:10.840798    1882 pod_workers.go:186] Error syncing pod 80d24614-5a1d-11e8-81cc-0800272d298f ("kube-dns-86f4d74b45-rcgm6_kube-system(80d24614
+May 18 07:02:11 kubernetes-master kubelet[1882]: W0518 07:02:11.885845    1882 pod_container_deletor.go:77] Container "08cbbf4c823ee0097d5318a4b6ac2892ed7fab60cae39ab9352716073d8d6f93" not found in pod'
+May 18 07:02:12 kubernetes-master kubelet[1882]: I0518 07:02:12.805097    1882 kuberuntime_manager.go:757] checking backoff for container "kubedns" in pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614
+May 18 07:02:13 kubernetes-master kubelet[1882]: I0518 07:02:13.095475    1882 kuberuntime_manager.go:757] checking backoff for container "dnsmasq" in pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614
+May 18 07:02:13 kubernetes-master kubelet[1882]: I0518 07:02:13.504918    1882 kuberuntime_manager.go:757] checking backoff for container "sidecar" in pod "kube-dns-86f4d74b45-rcgm6_kube-system(80d24614
+lines 17201-17256/17256 (END)
